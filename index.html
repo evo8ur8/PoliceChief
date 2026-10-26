@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Police Chief: F2P Field Guide</title>
+<style>
+:root{--bg:#f3f5f8;--card:#fff;--ink:#16202e;--mute:#566377;--line:#d5dce6;--acc:#1f5fbf;--acc2:#a86a00;--warn:#b3261e;--chip:#e6edf8;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121a26;--card:#1a2433;--ink:#e7edf5;--mute:#98a6ba;--line:#2b3850;--acc:#6aa6ff;--acc2:#e3a73a;--warn:#ff8a80;--chip:#223250}}
+:root[data-theme="dark"]{--bg:#121a26;--card:#1a2433;--ink:#e7edf5;--mute:#98a6ba;--line:#2b3850;--acc:#6aa6ff;--acc2:#e3a73a;--warn:#ff8a80;--chip:#223250}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header{padding:20px 16px 8px;max-width:760px;margin:0 auto}
+h1{font:700 26px/1.15 Georgia,"Iowan Old Style",serif;margin:0 0 4px}
+.sub{color:var(--mute);font-size:14px;margin:0}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5;border-bottom:1px solid var(--line);overflow-x:auto;white-space:nowrap;padding:8px 12px;max-width:100%}
+nav button{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:7px 13px;border-radius:999px;margin-right:6px;cursor:pointer}
+nav button[aria-selected="true"]{background:var(--acc);border-color:var(--acc);color:#fff}
+main{max-width:760px;margin:0 auto;padding:12px 16px 40px}
+section{display:none}section.on{display:block}
+h2{font:700 20px/1.25 Georgia,serif;margin:22px 0 8px}
+h3{font-size:16px;margin:0 0 4px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0}
+.card p{margin:4px 0}
+.warn{border-left:4px solid var(--warn)}
+.tip{border-left:4px solid var(--acc2)}
+ul{padding-left:20px;margin:6px 0}li{margin:3px 0}
+.chip{display:inline-block;background:var(--chip);border-radius:6px;padding:1px 8px;font-size:13px;margin:2px 4px 2px 0}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{color:var(--mute);font-weight:600}
+.mute{color:var(--mute);font-size:14px}
+a{color:var(--acc)}
+label.ck{display:flex;gap:10px;align-items:flex-start;padding:6px 0;border-bottom:1px solid var(--line)}
+label.ck input{margin-top:5px;width:18px;height:18px}
+</style>
+</head>
+<body>
+<header>
+<h1>Police Chief: F2P Field Guide</h1>
+<p class="sub">Yotta Games / VoyagerOne 4X strategy game (iOS and Android). Built from community guides as of late October 2026.</p>
+</header>
+<nav id="tabs" role="tablist"></nav>
+<main>
+
+<section data-t="Server Day 4">
+<div class="card tip"><p>Your server is about 4 days old. This tab covers days 4 to 10. Chief’s Office level matters more than the day count, so use it to decide what applies to you.</p></div>
+<h2>Do now</h2>
+<div class="card"><ol style="margin:0;padding-left:20px">
+<li><b>Join an active alliance</b> and request help on every timer.</li>
+<li><b>Push Chief’s Office to 7.</b> It unlocks the Intel Center, Security Wall level 2 (10 seconds, cheap) and the cross-server King of the Precinct event.</li>
+<li>Use every free recruit, patrol and Arena attempt daily.</li>
+<li>Keep both builders, research and all three academies busy.</li>
+<li>Don’t spend speedups, Hardened Steel, hero fragments or gear materials yet. See the event plan below.</li></ol></div>
+<h2>Chief Almighty (if it is running)</h2>
+<div class="card warn"><p>A seven-day solo points race that unlocks at Chief’s Office 6 and is mostly an early-server event. Check your event list. Points reset every day, so each day rewards a different thing. Claim every tier the same day you reach it, because the previous day’s claim buttons disappear. Tier 1 is only 1,000 points, so always take it.</p></div>
+<div class="tw"><table><tr><th>Day</th><th>What scores</th><th>Save for it</th></tr>
+<tr><td>1</td><td>Power from builds, research, training</td><td>Nothing; treat it as a floor day</td></tr>
+<tr><td>2</td><td>Hero fragments, Lucky Wheel</td><td>Planned spins and fragments</td></tr>
+<tr><td>3</td><td>Officers trained (Lvl 10 pays 1,960 each)</td><td>Troop training; promotions pay the difference</td></tr>
+<tr><td>4</td><td>Badge rating; research Power pays 45 each</td><td>Your biggest research</td></tr>
+<tr><td>5</td><td>Power, Hardened Steel (50,000 each), exclusive materials (100,000)</td><td>Long builds finishing today</td></tr>
+<tr><td>6</td><td>Chief equipment rating only</td><td>Chief equipment materials</td></tr>
+<tr><td>7</td><td>Fragments; 300 points per minute of speedups</td><td>Speedups on cheap timers</td></tr></table></div>
+<ul>
+<li>Phase rank rewards need the top 1,000 and 50,000 points that day. Overall rank only needs the top 1,000.</li>
+<li>Never buy Wheel spins to reach a tier; it loses Diamonds. Spin only if you were spinning anyway.</li>
+<li>Your Chief’s Office bracket locks at event start, so a building finishing mid-event keeps the cheaper ladder.</li></ul>
+<h2>What opens soon</h2>
+<div class="tw"><table><tr><th>When</th><th>What</th></tr>
+<tr><td>Chief’s Office 6</td><td>Chief Almighty; Defenders from Afar login ladder</td></tr>
+<tr><td>Chief’s Office 7</td><td>Intel Center, Security Wall level 2, King of the Precinct</td></tr>
+<tr><td>Chief’s Office 9</td><td>Oktoberfest 7-day mission grid, when it runs</td></tr>
+<tr><td>Server day 8</td><td>Defenders from Afar appears (needs 7 full days and Chief’s Office 6)</td></tr>
+<tr><td>Server day 70</td><td>Electro Cores and levels past 30</td></tr>
+<tr><td>Server day 71+</td><td>K9s Radar and Magnus at Chief’s Office 15</td></tr>
+<tr><td>Server day 112</td><td>Gen 3 heroes Marcus, Duke, Lexie</td></tr></table></div>
+<div class="card tip"><h3>Defenders from Afar</h3><p>A 21-step daily-login ladder under the Deals menu. The free track recruits Hikari, Dmitry and Sea-ah on steps 1, 4 and 7. Sweep every step the day you earn it.</p></div>
+<div class="card"><h3>Older 7-day sprint guide</h3><p>An earlier guide aims at the Star of Justice skin: day 1 Chief’s Office and alliance, day 2 Intel Center and gathering, day 3 second builder, day 5 hero equipment. That event may not still run.</p></div>
+<p class="mute">Tell me your Chief’s Office level and which Chief Almighty day you’re on, and I can make this exact.</p>
+</section>
+
+<section data-t="Start Here">
+<div class="card warn"><h3>Right game?</h3>
+<p>This guide covers the mobile 4X <b>Police Chief</b> (package com.slg.policewar) with Chief’s Office, heroes, alliances and state events. It is not <i>Police Chief Simulator</i> (Steam, Perfect Circle) or the Steam sim <i>Police Chief</i> by Blue Directive.</p></div>
+<h2>The game in one minute</h2>
+<ul>
+<li>Base builder plus PvP: upgrade your HQ, train three troop types, collect heroes, gather resources on the state map, and fight in alliance events.</li>
+<li><b>Troop triangle:</b> Guard (tank), Biker (also called Rider in some guides), Marksman (damage).</li>
+<li>Late game uses <b>Electro Cores</b>, which unlock once your server is 70 days old, for building levels past 30.</li>
+<li>Hero rarities: Legendary (SSR), Epic (SR), Rare (R). Generations: Gen 1, Gen 2, and Gen 3 is announced as coming soon.</li>
+</ul>
+<div class="card warn"><h3>Heads-up on PvP</h3>
+<p>A recent store review says new players get attacked early by bigger players and that retaliating can draw in whole alliances. Join an active alliance fast, keep resources under your protection limit, and don’t leave troops idle outside your base.</p></div>
+<h2>Golden rules</h2>
+<div class="card"><ol style="margin:0;padding-left:20px">
+<li>Chief’s Office drives everything. Before any upgrade, ask whether it helps the next Chief’s Office level.</li>
+<li>Never let a construction, research or training queue sit empty.</li>
+<li>Alliance first: help timers, tech, gifts and event rewards beat any solo play.</li>
+<li>Spend speedups and Hardened Steel on event days, not randomly.</li>
+</ol></div>
+</section>
+
+<section data-t="First 7 Days">
+<h2>Checklist</h2>
+<div class="card" id="ck"></div>
+<p class="mute">Ticks stay in this browser tab only.</p>
+<h2>Why these steps</h2>
+<div class="card tip"><h3>Chief’s Office 7 = Intel Center</h3><p>Intel Center gives daily missions and resources. Clear intel cases within the refresh window. Criminal Capture missions also produce Tranquilizers for the alliance Vault Trap.</p></div>
+<div class="card tip"><h3>Second construction queue</h3><p>Construction becomes the main bottleneck. Guides rank the second queue as one of the earliest premium or Diamond purchases worth making.</p></div>
+<div class="card"><h3>Extra squad queues</h3><p>Researching more squad slots beats most early combat tech: more gatherers and more event participation.</p></div>
+<div class="card"><h3>Chief Orders</h3><ul><li>Rapid Construction: use on 8+ hour builds.</li><li>Supply Coordination: use before big gathering.</li><li>Advance Preparations: instant resources; combine with Supply Coordination.</li></ul></div>
+<div class="card"><h3>Research order</h3><p>One popular roadmap says <b>Development, then Battle, then Economy</b>. Another early guide says economy first, then combat. Both agree extra squad queues come first. Pick Development early and add Battle once your economy holds.</p></div>
+</section>
+
+<section data-t="Heroes">
+<h2>Free-to-play core</h2>
+<div class="card"><p>Community guides name these as the F2P backbone:</p>
+<p><span class="chip">Dual Scarlett (Biker)</span><span class="chip">Aegis Leon (Guard)</span><span class="chip">Sunshine Lucy (Marksman)</span><span class="chip">Ranger Rix (Marksman)</span><span class="chip">Velocity Vixen (Biker)</span><span class="chip">Hotshot Samuel (Guard, Season 2)</span></p></div>
+<div class="card tip"><h3>Everyday squad (free march)</h3><p>Sunshine Lucy + Aegis Leon + Dual Scarlett. Upgrade path if you land the legends: Titan Andre + Techy Tony + Dual Scarlett. The source flags these as pre-Gen 2 examples, so treat them as a starting point.</p></div>
+<div class="card"><h3>Ranger Rix</h3><p>Good for PvE and gathering because he reduces energy use and speeds deployment. One guide says he isn’t suited to general rallies. His fragments come from the Wild West event: start 10 or more rallies if you can.</p></div>
+<div class="card"><h3>Development heroes (economy)</h3><p>Send them gathering, not fighting: <b>Doc Zoc</b> (electricity), <b>Ammo Alvin</b> (ammo), <b>Cash Money Cassie</b> (cash), <b>Gas Gus</b> (gas).</p></div>
+<h2>Leveling rules</h2>
+<ul><li>Pick one carry per troop type and funnel EXP into it. Spreading evenly wastes it.</li><li>Don’t spend combat EXP on logistics heroes.</li><li>Use every free recruitment daily once Hero Hall unlocks; shards matter.</li></ul>
+<h2>Hero roster</h2>
+<div class="tw"><table><tr><th>Rarity</th><th>Heroes</th></tr>
+<tr><td>Legendary</td><td>Enforcer Brooke, Titan Andre (Guard); Dual Scarlett (Biker); Techy Tony (Marksman)</td></tr>
+<tr><td>Season 2 Legendary</td><td>Hotshot Samuel (Guard), Paramedic Pamela (Biker), Furious Franklin (Marksman)</td></tr>
+<tr><td>Epic</td><td>Aegis Leon (Guard); Chef Gary, Velocity Vixen (Biker); Sunshine Lucy, Ranger Rix (Marksman)</td></tr>
+<tr><td>Rare</td><td>Cash Money Cassie, Gas Gus (Guard); Ammo Alvin (Biker); Doc Zoc (Marksman)</td></tr></table></div>
+<p class="mute">Gen 2 also lists Spark Sea-ah, Helpful Hikari (Marksman) and Bloodhound Dmitry (Biker). Gen 3 names announced: Earthshaker Marcus, Phantasm Lexie, Tuba Duke.</p>
+</section>
+
+<section data-t="Formations">
+<h2>Patrol and march squads</h2>
+<div class="card tip"><h3>Newbie squad</h3><p><b>Front:</b> Aegis Leon, Velocity Vixen<br><b>Back:</b> Dual Scarlett, Techy Tony, Chef Gary</p><p class="mute">Easy to build, with healing, a stun and damage reduction.</p></div>
+<div class="card tip"><h3>Advanced squad</h3><p><b>Front:</b> Titan Andre + Aegis Leon (swap Leon for Enforcer Brooke for more firepower)<br><b>Back:</b> Dual Scarlett, Techy Tony, Chef Gary</p><p class="mute">Andre fragments come from Chief Almighty rank rewards and VIP packs; Brooke is tied to first-purchase rewards and VIP packs.</p></div>
+<div class="card"><h3>Free march (older example)</h3><p>Sunshine Lucy + Aegis Leon + Dual Scarlett. Upgraded version: Titan Andre + Techy Tony + Dual Scarlett. One source marks both as not yet re-checked against Gen 2 heroes.</p></div>
+<div class="card"><h3>PvE and facilities</h3><p>Ranger Rix saves stamina on PvE and is good for attacking and seizing facilities. One guide says he isn’t suited to general rallies.</p></div>
+<h2>Role rules</h2>
+<div class="card"><ul>
+<li>You can’t stack duplicate hero types in one squad. Mix Guard, Biker and Marksman.</li>
+<li>Guards soak damage and weaken enemy attack. Marksmen deal damage and control. Bikers lead rallies and buff the squad.</li>
+<li>Counter triangle: Guard beats Biker, Biker beats Marksman, Marksman beats Guard. An earlier lower-quality source had it reversed, so ignore that. See the Troops & Rallies tab.</li>
+<li>Slot count differs by source: one shows 2 front and 3 back, another mentions a 2-2-1 builder. Check your own formation screen.</li></ul></div>
+<h2>Gathering preset</h2>
+<div class="card tip"><p>Make a second preset of Doc Zoc, Ammo Alvin, Cash Money Cassie and Gas Gus. Swap to it before sending gatherers out, then swap back to combat heroes for defense. Level their deployment skills, not their combat stats.</p></div>
+<h2>Rallies</h2>
+<div class="card"><ul>
+<li><b>Dual Scarlett:</b> her deployment skill Shadow Step cuts damage taken by allies, and it stays active in rallies. Treated as an S-tier rally leader.</li>
+<li><b>Velocity Vixen:</b> strong rally leader with an area patrol skill and a deployment skill that boosts demolition.</li>
+<li><b>Techy Tony:</b> his deployment skill lowers construction costs, so he’s worth leveling early.</li>
+<li>Vault Trap uses a different hero list, so see the Events tab.</li></ul></div>
+<h2>Arena</h2>
+<div class="card"><ul>
+<li>You can view an opponent’s defensive lineup from the Arena challenge history (added in a client update).</li>
+<li>Revenge now follows a server list, not any loss from the current week.</li>
+<li>Rank milestones pay 50 to 500 Diamonds from the top 500 down to rank 1.</li>
+<li>Per-hero damage and healing stats were removed from result screens for some players.</li></ul></div>
+<h2>Recent client changes</h2>
+<div class="card"><ul>
+<li>Auto-rally can be set to join only while you’re offline.</li>
+<li>Alliance Mobilization: an Exclusive Tasks item lets you pick your task; task points were raised two to four times; an Elite alliance can be promoted to Glory with a top-3 finish and at least 7,000 points.</li>
+<li>The “Recommended Ratio” rally setting and joining-rally troop-ratio option are limited or removed in many states.</li>
+<li>Crime Boss rallies from Intel were removed; monster rallies need an alliance.</li>
+<li>New R4 and R5 alliance chat tab; Hot Pursuit boss push notification.</li></ul></div>
+</section>
+
+<section data-t="Troops & Rallies">
+<h2>Troop percentages</h2>
+<div class="card warn"><p>No source I found gives a fixed split for PvP or defense (nothing like 50/25/25). The only documented ratio is for Vault Trap, and the two sources differ but agree on Marksman-heavy.</p></div>
+<div class="tw"><table><tr><th>Source</th><th>Guard</th><th>Biker</th><th>Marksman</th></tr>
+<tr><td>policechiefguides.com (says it came from the devs)</td><td>10%</td><td>20%</td><td>70%</td></tr>
+<tr><td>policechiefwiki.com</td><td>1 to 5%</td><td>5 to 15%</td><td>70 to 90%</td></tr></table></div>
+<p class="mute">Apply the vault split to every squad, but the first squad is the only one that may hit it exactly. Max Marksmen up to 70% in each deployment. The boss has 0 attack, so tanks add nothing there.</p>
+<h2>Counter triangle</h2>
+<div class="card"><ul>
+<li><b>Guard</b> beats Biker, loses to Marksman.</li>
+<li><b>Biker</b> beats Marksman, loses to Guard.</li>
+<li><b>Marksman</b> beats Guard, loses to Biker.</li>
+<li>Troop skills: all types get +10% damage vs their prey at T1. At T7+ Guards add +10% Defense vs Bikers, Bikers get a 20% chance to pierce Guards and hit Marksmen, and Marksmen get a 10% chance to strike twice.</li></ul>
+<p class="mute">For normal PvP, my suggestion (reasoned from the triangle, not from a guide): scout the enemy mix and tilt toward the class that beats their biggest share.</p></div>
+<h2>Troop economy</h2>
+<div class="card tip"><ul>
+<li>Deployment cap = march capacity x number of queues (max 6). Each deployment holds roughly 50k to 120k troops.</li>
+<li>Over the cap: promote instead of training more. Under the cap: train fresh.</li>
+<li>Promotion unlocks at division building level 13. Promote low tiers (T1 to T5) first; save T9 to T10 for training events.</li>
+<li>T10 needs division level 30. Healing costs about 10% of training, so keep the Hospital from overflowing.</li></ul></div>
+<h2>Rally joiners</h2>
+<div class="card"><ul>
+<li>Only the captain’s buffs apply to the whole rally. Joiners ride the leader’s research and gear.</li>
+<li>Of the joiners, only the <b>first skill of each player’s first hero</b> counts, up to the 4 highest skill levels (ties go to who joined first). Exclusive equipment skills don’t apply when joining.</li>
+<li>For Vault Trap only Andre and Velocity Vixen have a useful first skill (a Penetration boost). Level that skill and put one of them in slot one.</li></ul></div>
+<div class="tw"><table><tr><th>Role</th><th>With Andre</th><th>Without Andre</th></tr>
+<tr><td>Captain rally #1</td><td>Brooke, Scarlett, Lucy</td><td>Brooke, Scarlett, Lucy</td></tr>
+<tr><td>Join #1</td><td>Andre or Vixen, Scarlett, Lucy</td><td>Vixen, Scarlett, Lucy</td></tr>
+<tr><td>Join #2</td><td>Andre or Vixen, 2nd-best Guard, 2nd-best Marksman</td><td>Vixen, Leon, Tony</td></tr></table></div>
+<p class="mute">Lead with Brooke so Andre stays free for joining. No Brooke: lead with any squad that has no Vixen. Without a Brooke or Andre, any Guard still works as filler. Gen 2 and Gen 3 vault picks aren’t verified yet by that source.</p>
+<div class="card tip"><h3>Etiquette that adds damage</h3><p>Join the next open rally, don’t cherry-pick, and don’t start your own. Captains use the 5:00 gather timer (a full cycle is about 5:40) and follow the posted rotation. The last rally must start by about T-5:20.</p></div>
+<h2>Gear</h2>
+<div class="card"><ul>
+<li><b>Exclusive equipment:</b> a 5th gear slot with 10 levels, unlocked at star 1. Gen 1 has it only for Brooke, Andre, Scarlett and Tony. It buffs only that hero’s own troop class and adds extra skill levels.</li>
+<li><b>Gen 2:</b> stars buff class Attack and Defense; exclusive gear adds class Health and Penetration plus two skills.</li>
+<li><b>Chief Equipment:</b> six pieces, and each only buffs one troop type. Build the set matching your main march. Upgrades cost Reinforced Metal and Tactical Gel.</li>
+<li><b>Hero Gear:</b> a 4-piece set per class, enhanced 0 to 100 and gated by Chief’s Office level.</li></ul></div>
+<h2>Skills and upgrade order</h2>
+<div class="card"><ol style="margin:0;padding-left:20px">
+<li>Hero level to your Police Department cap (80 at PD 25+).</li>
+<li>All key skills to level 3 before specializing.</li>
+<li>Exclusive equipment once the hero reaches star 1.</li>
+<li>Legendary gear and Forge (late game).</li></ol>
+<p>Push one hero to star 3 before spreading fragments. Don’t ignore Deployment skills, since a hero can be average in patrol and great on the state map.</p></div>
+<div class="card tip"><h3>Newer legendaries</h3><p>Gen 3 (live from state day 112): Marcus (Guard) exclusive gives +15% garrison Defense, so he’s the defense anchor. Duke (Marksman) gives +15% rally Health. Lexie (Biker) gives +15% rally Attack. Keep Lexie out of the garrison.</p></div>
+<h2>Research hint</h2>
+<p class="mute">The Battle tree has 102 techs with per-class Attack, Defense, Health and Penetration. Examples: Defense Formation (Guard Defense) and Counterattack (Guard Attack).</p>
+</section>
+
+<section data-t="Defense">
+<div class="card warn"><p>I found no dedicated defense guide. This tab combines building data, patch notes and a few guide notes, and marks what is my own reasoning.</p></div>
+<h2>Before you log off</h2>
+<div class="card" id="ck2"></div>
+<h2>Buildings that protect you</h2>
+<div class="card tip"><h3>Security Wall (max level 10)</h3><p>Protects the PD and raises its durability. Level 2 needs Chief’s Office 7, takes 10 seconds and is cheap, so do it early.</p>
+<div class="tw"><table><tr><th>Wall level</th><th>Needs Chief’s Office</th><th>Time</th></tr>
+<tr><td>3</td><td>10</td><td>21m 30s</td></tr><tr><td>4</td><td>13</td><td>1h 4m</td></tr><tr><td>5</td><td>16</td><td>3h 39m</td></tr><tr><td>6</td><td>20</td><td>9h 52m</td></tr><tr><td>7</td><td>24</td><td>1d 13h</td></tr><tr><td>8</td><td>27</td><td>3d</td></tr><tr><td>9</td><td>29</td><td>4d</td></tr><tr><td>10</td><td>30</td><td>4d 19h</td></tr></table></div>
+<p class="mute">Level 10 costs 75M each of Ammo and Cash. Costs jump hard after level 4.</p></div>
+<div class="card"><h3>Warehouse (max level 30)</h3><p>Its capacity protects resources from being seized. Keep stockpiles under that limit before you go offline, or spend them on upgrades and training.</p></div>
+<div class="card"><h3>Hospital and Recovery Center</h3><p>Wounded troops go to the Hospital. Past its capacity they overflow to the Recovery Center, which treats officers on the brink of death. Healing costs about 10% of training, so upgrade Hospital capacity before big events. The quick-select now remembers your last mix of troop types.</p></div>
+<div class="card"><h3>Dispatch Center</h3><p>Sets how much alliance assistance and reinforcement you can send and receive. You can only send one reinforcement group to the same ally city.</p></div>
+<h2>Shields</h2>
+<div class="card"><ul>
+<li>PD protection shields from every source now show as one buff icon with the longest time left.</li>
+<li>You can’t use a shield while your troops are supporting or stationed at the State Capitol, a Cannon, a Prison, or an alliance facility such as the Crime Lab or Arsenal. The reinforce buttons warn you first that the march cancels it.</li></ul></div>
+<h2>Garrison heroes</h2>
+<div class="card tip"><ul>
+<li>Security Wall squad from one guide: Sunshine Lucy, Aegis Leon, Chef Gary (that page marks some sections as still pending).</li>
+<li>Heroes can be marked “Stationed Only” on the Security Wall.</li>
+<li>Garrison exclusive-gear skills: Marcus gives +15% garrison Defense, Samuel adds stationed-officer Attack, Pamela adds stationed-officer Health.</li>
+<li>Guards get +10% Defense vs Bikers at T7 and above. Research Defense Formation (Guard Defense) and the Biker and Marksman defense techs.</li></ul></div>
+<p class="mute">Nothing I found gives a fixed troop split for the garrison. My own reasoning: a mixed home army avoids giving the enemy one class to exploit, but check this against your own battle reports.</p>
+<h2>Other habits</h2>
+<div class="card"><ul>
+<li>Keep troops home when a shield isn’t up. One guide suggests parking troops in an ally’s base if a server war is brewing. I couldn’t verify that, and it can cancel your shield at some facilities.</li>
+<li>Turn on push notifications for Alliance Flag attacks.</li>
+<li>Store reviews say new players get hit early, so build the Security Wall and Hospital before cosmetics.</li></ul></div>
+</section>
+
+<section data-t="Events">
+<h2>Alliance events</h2>
+<div class="tw"><table><tr><th>Event</th><th>What to know</th></tr>
+<tr><td>Vault Trap</td><td>Damage race vs the Master of Heists. R4+ start it; personal cooldown 48 hours. Top milestone 1.2 billion damage.</td></tr>
+<tr><td>Mafia Attack</td><td>20 waves in about 33 minutes. Don’t miss the big waves.</td></tr>
+<tr><td>Hot Pursuit</td><td>3 days, 50 fugitive stages, then the alliance fights Armed Hijackers.</td></tr>
+<tr><td>Alliance Mobilization</td><td>6 days, every 2 weeks, two leaderboards. Small tasks add up fast.</td></tr>
+<tr><td>Precinct Powerplay</td><td>Weekly, Monday reset. Six alliances, three lanes, five rounds.</td></tr></table></div>
+<h2>Vault Trap quick setup</h2>
+<div class="card tip"><ul>
+<li><b>Troops:</b> Marksman-heavy. One guide says 10% Guard, 20% Biker, 70% Marksman; the wiki says 1/9/90. The boss never hits back, so Guards add little.</li>
+<li><b>Joiner slot:</b> only your first (left) hero counts, and only its first skill. Use a hero whose first skill boosts damage: Velocity Vixen, Titan Andre, Hotshot Samuel or Furious Franklin; Pamela is decent (15% attack).</li>
+<li><b>Stats that matter:</b> Attack and Penetration. Defense is irrelevant here.</li>
+<li><b>Upgrades:</b> Vault Trap levels 1 to 5 add 5% attack each (max 25%) using donated Tranquilizers: 150, 200, 250, 300, 300 per level.</li>
+<li><b>F2P rally heroes:</b> Season 1: Aegis Leon, Dual Scarlett, Sunshine Lucy. Season 2: swap Leon for Hotshot Samuel.</li></ul></div>
+<h2>Arms Race (points)</h2>
+<div class="tw"><table><tr><th>Task</th><th>Points</th></tr>
+<tr><td>Use 1 hero exclusive-gear material</td><td>1,600</td></tr>
+<tr><td>Use 1 Hardened Steel</td><td>800</td></tr>
+<tr><td>Spend 1 Electro Core on buildings</td><td>100</td></tr>
+<tr><td>+1 Chief max equipment rating</td><td>3</td></tr>
+<tr><td>1 minute of any speedup</td><td>1</td></tr></table></div>
+<p class="mute">Four milestones. Leaderboard pays the top 100 who reach at least 4,000 points.</p>
+<h2>Other events</h2>
+<p><span class="chip">Wild West (5 days, Rix fragments)</span><span class="chip">Crime Sweep</span><span class="chip">Oilfield Strike</span><span class="chip">Chief Almighty</span><span class="chip">Prison Clash</span><span class="chip">Capital War</span><span class="chip">PD Development</span><span class="chip">Officer Program</span><span class="chip">Hero Program</span><span class="chip">Armed to the Teeth</span></p>
+</section>
+
+<section data-t="F2P Rules">
+<h2>Where F2P wins</h2>
+<div class="card"><ul>
+<li><b>Codes:</b> redeem as soon as Chief’s Office 2 unlocks. One wiki showed no active codes on its last check, so look again when updates drop.</li>
+<li><b>Daily free stuff:</b> free recruits, patrols (Alloy comes from here), all Arena attempts. Save Arena Coins for Legendary Hero Equipment Chests.</li>
+<li><b>Gather nonstop:</b> keep at least one squad out, even offline. Ammo, Cash, Electricity and Gas gate almost everything.</li>
+<li><b>Alliance perks:</b> help, tech and gifts compound daily. Donate to alliance tech.</li>
+</ul></div>
+<h2>Where to spend a little</h2>
+<div class="card tip"><ul>
+<li>Second construction queue (best early value).</li>
+<li>VIP 2: unlocks better VIP shop options per the early guides.</li>
+<li>Avoid cosmetics; avoid random pulls with no goal hero.</li></ul></div>
+<h2>Common mistakes</h2>
+<div class="card warn"><ul>
+<li>Upgrading random buildings instead of Chief’s Office prerequisites.</li>
+<li>Letting academies go idle: troops are a huge share of power.</li>
+<li>Spending speedups and Hardened Steel outside events that count them.</li>
+<li>Splitting hero EXP across many heroes.</li>
+<li>Leaving a full storehouse and idle troops exposed.</li></ul></div>
+<h2>Late-game note</h2>
+<div class="card"><p>After server day 70, Electro Core is the big gate. Sources: daily tasks, intel cases, Hot Pursuit, Alliance Mobilization and Dawn of Justice, plus packs. Spend on Chief’s Office and academies first.</p></div>
+</section>
+
+<section data-t="Sources">
+<h2>Where this came from</h2>
+<div class="card"><ul>
+<li>App Store and Google Play listings and changelogs (VoyagerOne / Yotta Games).</li>
+<li>policechiefwiki.com: heroes, Vault Trap, Arms Race, Electro Core (unofficial).</li>
+<li>zagameguides.com: events hub, building and research priority, squad tips (unofficial).</li>
+<li>clashiverse.com beginner guide (June 2026) and ldshop.gg guides (mixed quality; used for broad advice only).</li>
+<li>policechiefguides.com changelog (client updates). A Discord WikiBot also exists that cites guides from the official Police Chief Discord.</li>
+<li>App Store, Google Play and AppBrain player reviews.</li></ul></div>
+<div class="card warn"><h3>Forum coverage</h3><p>Reddit and Discord threads aren’t indexed by the search tool, so formations here come from wikis and guide sites. The official Discord is the best place to check current formations.</p></div>
+<div class="card"><h3>Player review themes</h3><p>Reviews describe it as heavy PvP with spending pressure, say the ads don’t match gameplay, report occasional freezing, and mention chat harassment with slow report handling. Others call it a fun, incremental builder.</p></div>
+<p class="mute">Community sources sometimes disagree (research order, class names). Numbers may change with patches, so verify in game. Not affiliated with the developer.</p>
+</section>
+
+</main>
+<script>
+var secs=[].slice.call(document.querySelectorAll('section')),nav=document.getElementById('tabs');
+function show(i){secs.forEach(function(s,j){s.classList.toggle('on',i===j)});[].forEach.call(nav.children,function(b,j){b.setAttribute('aria-selected',i===j)});window.scrollTo(0,0)}
+secs.forEach(function(s,i){var b=document.createElement('button');b.textContent=s.dataset.t;b.setAttribute('role','tab');b.onclick=function(){show(i)};nav.appendChild(b)});
+var items=["Join an active alliance and claim help on timers","Push Chief’s Office; follow the story missions","Use every free recruitment and run patrols","Redeem gift codes once Chief’s Office 2 unlocks","Reach Chief’s Office 7 for the Intel Center","Research extra squad queues","Keep all three academies training","Start gathering; keep one squad out when offline","Use all Arena attempts","Unlock the second construction queue","Join Wild West and start rallies for Rix fragments","Reach VIP 2 if you have spare Diamonds"];
+var ck=document.getElementById('ck');
+items.forEach(function(t){var l=document.createElement('label');l.className='ck';l.innerHTML='<input type="checkbox"><span></span>';l.querySelector('span').textContent=t;ck.appendChild(l)});
+show(0);
+var c2=["Resources under Warehouse limit, or spent","Shield active if you have one and troops are home","Hospital emptied; healing queued","Garrison heroes set on the Security Wall","Gatherers recalled or on safe nodes","Alliance Flag push notifications on"];
+var ck2=document.getElementById('ck2');
+c2.forEach(function(t){var l=document.createElement('label');l.className='ck';l.innerHTML='<input type="checkbox"><span></span>';l.querySelector('span').textContent=t;ck2.appendChild(l)});
+</script>
+</body>
+</html>
